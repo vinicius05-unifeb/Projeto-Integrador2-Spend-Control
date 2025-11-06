@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_login_admin {
+    background-color: rgb(188, 188, 188);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_login_admin {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.acessar_login_admin {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
