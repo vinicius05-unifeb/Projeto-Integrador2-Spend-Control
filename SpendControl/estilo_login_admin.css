@@ -38,6 +38,20 @@ body {
     margin-top: 10px;
 }
 
+.acessar_login_admin:hover {
+    background-color: rgb(116, 249, 49);
+    transition: 0.2s;
+    color: black;
+    border: 1px solid black;
+}
+
+.input_admin {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 30px;
