@@ -12,12 +12,13 @@ body {
     flex-direction: column;
 }   
 
-.container_header {
+.container_header > header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between; 
-    width: 1300px;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 350px;
 }
 
 .container_formulario {
@@ -32,22 +33,36 @@ body {
     border-radius: 10px;
 }
 
-.registrar {
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+header > div> p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+}
+
+.botao_menu {
     padding: 10px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border: none;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
     font-size: 16px;
 }
 
-.registrar:hover {
+.botao_menu:hover {
     background-color: rgb(204, 204, 204);
     transition: 0.2s;
     color: black;
-    border: 1px solid black;
 }
 
 .salvar {

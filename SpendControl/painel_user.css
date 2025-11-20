@@ -12,12 +12,13 @@ body {
     flex-direction: column;
 }   
 
-.container_header {
+.container_header > header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between; 
-    width: 1300px;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 350px;
 }
 
 .container_formulario {
