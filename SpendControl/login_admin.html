@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\Vinicius\OneDrive\Desktop\Projeto-Integrador2-Spend-Control\SpendControl\estilo_login_admin.css">
+    <link rel="stylesheet" href="estilo_login_admin.css">
+    <script src="validacao_login_admin.js"></script>
     <title>Login - Admin</title>
 </head>
 <body>
@@ -13,14 +14,14 @@
 
     <h2>Login Admin</h2>
     <div class="container_login_admin">
-        <form action="#" method="post" class="form_login_admin">
+        <form action="painel_admin.html" method="post" class="form_login_admin">
             <label for="user">USER:</label> <br>
             <input type="text" id="user" name="user" class="input_admin" required>
             <br><br>
             <label for="senha">SENHA:</label> <br>
             <input type="password" id="senha" name="senha" class="input_admin" required>
             <br><br>
-            <button type="submit" class="acessar_login_admin">ACESSAR</button>
+            <button type="submit" onclick="acessarPainelAdmin()" class="acessar_login_admin">ACESSAR</button>
         </form>
     </div>
 </body>
