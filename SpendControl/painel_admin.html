@@ -13,14 +13,20 @@
                 <p>Menu</p>
                 <button type="submit" class="botao_menu">REGISTRAR</button>
                 <form action="painel_registro_logins.html" id="registroUsuarios">
-                    <button type="submit" onclick="registroUsuarios()" class="botao_menu">R.A.</button>
+                    <button type="submit" class="botao_menu">R.A.</button>
+                </form>
+                <form action="painel_hitorico_registros.html">
+                    <button type="submit" class="botao_menu">HISTÓRICO</button>
+                </form>
+                <form action="painel_gastos.html">
+                    <button type="submit" class="botao_menu">GASTOS</button>
                 </form>
             </div>
             <img src="C:\Users\Vinicius\OneDrive\Desktop\Projeto-Integrador2-Spend-Control\SpendControl\Imagem do WhatsApp de 2025-10-22 à(s) 19.33.15_b66810d9.jpg" alt="Logo Spend Control" class="logo_spendcontrol" height="240" width="400">
         </header>
     </div>
     <div class="container_formulario">
-        <form id="form_admin" method="post">
+        <form action="" id="form_admin" method="post">
             <label for="valor" class="label_form">Digite o valor:</label>
             <br>
             <input type="text" id="valor" name="valor" required>
